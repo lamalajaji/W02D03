@@ -11,7 +11,7 @@ class car {
      this.price = price;
      }
      editPrice(newPrice) {
-       return (this.price = newPrice);
+       return (this.price = newPrice*0.5);
    }
    
    showAll() {
